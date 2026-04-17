@@ -106,22 +106,22 @@ const reelsData = [
     { 
         title: "Виды медитации", 
         description: "Спокойный рилс о гармонии и осознанности. Плавный монтаж, природные тона, атмосфера умиротворения.", 
-        videoUrl: "https://vk.com/video_ext.php?oid=-XXXXXXXXX&id=XXXXXXXXX&hash=xxxxxx"
+        videoUrl: "https://vk.com/clip_ext.php?oid=-237762511&id=456239019&autoplay=1"
     },
     { 
         title: "Подборка с WB", 
         description: "Динамичный рилс с обзором товаров с Wildberries. Быстрый монтаж, яркая цветокоррекция, акценты на деталях.", 
-        videoUrl: "https://vk.com/video_ext.php?oid=-XXXXXXXXX&id=XXXXXXXXX&hash=xxxxxx"
+        videoUrl: "https://vk.com/clip_ext.php?oid=-237762511&id=456239020&autoplay=1"
     },
     { 
         title: "Получение визы", 
         description: "Полезный рилс с пошаговой инструкцией. Чёткий монтаж, текстовая поддержка, визуальные акценты на ключевых этапах.", 
-        videoUrl: "https://vk.com/video_ext.php?oid=-XXXXXXXXX&id=XXXXXXXXX&hash=xxxxxx"
+        videoUrl: "https://vk.com/clip_ext.php?oid=-237762511&id=456239021&autoplay=1"
     },
     { 
         title: "Тур в Турцию", 
         description: "Атмосферный рилс о путешествии мечты. Плавный монтаж, тёплая цветокоррекция, кадры моря, солнца и отдыха.", 
-        videoUrl: "https://vk.com/video_ext.php?oid=-XXXXXXXXX&id=XXXXXXXXX&hash=xxxxxx"
+        videoUrl: "https://vk.com/clip_ext.php?oid=-237762511&id=456239022&autoplay=1"
     }
 ];
 
@@ -130,7 +130,7 @@ const clipsData = [
     { 
         title: "Три дня дождя | Fan tribute", 
         description: "Фан-клип, созданный как признание в любви к творчеству группы. Эмоциональный монтаж, атмосфера концертов, цветокоррекция под настроение трека.", 
-        videoUrl: "https://vk.com/video_ext.php?oid=-XXXXXXXXX&id=XXXXXXXXX&hash=xxxxxx"
+        videoUrl: "https://vk.com/video_ext.php?oid=-237762511&id=456239023&autoplay=1"
     }
 ];
 
