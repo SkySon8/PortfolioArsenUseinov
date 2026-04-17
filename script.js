@@ -97,7 +97,7 @@ const gamingData = [
 
 // Данные для рилсов (5 штук) - вертикальные видео 9:16
 const reelsData = [
-    { title: "Venezia Palace Hotel", description: "Динамичный рилс, передающий атмосферу одного из самых роскошных отелей Анталии", video: "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/z3bDw-R8GuNz-w" },
+    { title: "Venezia Palace Hotel", description: "Динамичный рилс, передающий атмосферу одного из самых роскошных отелей Анталии", video: "https://vkvideo.ru/clip-237762511_456239017" },
     { title: "Виды медитации", description: "Рилс, погружающий в мир осознанности и гармонии", video: "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/KvOwm8Q8eBTSyw" },
     { title: "Подборка с WB | Обзор Wildberries", description: "Динамичный рилс с подборкой стильных находок с Wildberries. Монтаж создаёт ощущение лёгкого листания ленты и погружает в атмосферу шопинга", video: "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/0ebl1H55YwqW2w" },
     { title: "Получение визы", description: "Динамичный монтаж, чёткая подача, визуальные акценты на ключевых этапах. Без воды, без скуки", video: "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/vc98viyjIZcEkw" },
