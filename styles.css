@@ -456,17 +456,17 @@ section {
 .portfolio-video {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%;
     overflow: hidden;
+    background: #0a0a0f;
 }
 
-.portfolio-video video {
+.portfolio-video iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    border: none;
 }
 
 .portfolio-card-content {
@@ -482,6 +482,22 @@ section {
     color: #b0b0b0;
     font-size: 0.85rem;
     line-height: 1.5;
+}
+
+/* Video formats */
+.landscape-video {
+    padding-bottom: 56.25%; /* 16:9 */
+}
+
+.portrait-video {
+    padding-bottom: 177.77%; /* 9:16 */
+}
+
+/* Portrait card width limit */
+.portrait-card {
+    max-width: 320px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 /* Gaming Card Styles */
@@ -759,6 +775,9 @@ footer {
     .swiper-button-next {
         display: none;
     }
+    .portrait-card {
+        max-width: 280px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -782,76 +801,6 @@ footer {
     .clapper-logo {
         font-size: 5rem;
     }
-}
-
-/* Альтернативный вариант - без разделения на типы */
-.portfolio-video {
-    position: relative;
-    width: 100%;
-    background: #0a0a0f;
-    border-radius: 12px;
-    overflow: hidden;
-}
-
-.portfolio-video video {
-    width: 100%;
-    height: auto;
-    display: block;
-    max-height: 500px;
-    object-fit: contain;
-    background: #0a0a0f;
-}
-
-/* Для рилсов делаем ограничение по высоте */
-.portfolio-card[data-category="reels"] .portfolio-video video {
-    max-height: 600px;
-}
-
-/* Portfolio Video - поддержка разных форматов */
-.portfolio-video {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    background: #0a0a0f;
-    border-radius: 12px;
-}
-
-/* Горизонтальное видео (16:9) - для клипов */
-.landscape-video {
-    padding-bottom: 56.25%; /* 16:9 */
-}
-
-/* Вертикальное видео (9:16) - для рилсов */
-.portrait-video {
-    padding-bottom: 177.77%; /* 9:16 */
-}
-
-/* Универсальный стиль для видео */
-.portfolio-video video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* видео помещается целиком без обрезки */
-    background: #0a0a0f;
-}
-
-/* Для рилсов - делаем карточку уже, чтобы видео смотрелось лучше */
-.portrait-card {
-    max-width: 320px;
-    margin: 0 auto;
-    width: 100%;
-}
-
-/* Адаптив для вертикальных видео */
-@media (max-width: 768px) {
-    .portrait-card {
-        max-width: 280px;
-    }
-}
-
-@media (max-width: 480px) {
     .portrait-card {
         max-width: 260px;
     }
