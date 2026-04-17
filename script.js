@@ -76,22 +76,22 @@ fadeElements.forEach(el => observer.observe(el));
 // Данные для игровых каналов (замените ссылки на логотипы и URL каналов)
 const gamingData = [
     { 
-        title: "Канал #1", 
+        title: "Restl", 
         description: "Игровой блогер", 
-        logo: "images/gaming1.png",
-        link: "https://www.youtube.com/channel/..." 
+        logo: "images/restll.jpg",
+        link: "https://youtube.com/@restlgamer" 
     },
     { 
-        title: "Канал #2", 
-        description: "Стример и летсплейщик", 
-        logo: "images/gaming2.png",
-        link: "https://www.youtube.com/channel/..." 
+        title: "SCORTY", 
+        description: "Игровой блогер", 
+        logo: "images/scortyy.jpg",
+        link: "https://youtube.com/@scorty" 
     },
     { 
-        title: "Канал #3", 
-        description: "Киберспортивный канал", 
-        logo: "images/gaming3.png",
-        link: "https://www.youtube.com/channel/..." 
+        title: "Tofleks", 
+        description: "Игровой блогер", 
+        logo: "images/toflekss.jpg",
+        link: "https://youtube.com/@tofleks" 
     }
 ];
 
