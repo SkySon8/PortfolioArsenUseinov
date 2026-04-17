@@ -101,7 +101,7 @@ const reelsData = [
     { 
         title: "Venezia Palace", 
         description: "Атмосферный рилс о роскошном отеле в Анталии. Плавный монтаж, цветокоррекция, динамичная подача.", 
-        videoUrl: "https://vkvideo.ru/clip-237762511_456239017"
+        videoUrl: "https://vk.com/clip_ext.php?oid=-237762511&id=456239017&autoplay=1"
     },
     { 
         title: "Виды медитации", 
