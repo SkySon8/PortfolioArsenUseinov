@@ -75,38 +75,63 @@ fadeElements.forEach(el => observer.observe(el));
 // ============ PORTFOLIO DATA ============
 // Данные для игровых каналов (замените ссылки на логотипы и URL каналов)
 const gamingData = [
-    {
-        title: "Restl",
-        description: "Игровой блогер",
-        logo: "images/restll.jpg",  // замените на путь к логотипу
-        link: "https://www.youtube.com/@restlgamer"
+    { 
+        title: "Канал #1", 
+        description: "Игровой блогер", 
+        logo: "images/gaming1.png",
+        link: "https://www.youtube.com/channel/..." 
     },
-    {
-        title: "SCORTY",
-        description: "Игровой блогер",
-        logo: "images/scortyy.jpg",  // замените на путь к логотипу
-        link: "https://youtube.com/@scorty"
+    { 
+        title: "Канал #2", 
+        description: "Стример и летсплейщик", 
+        logo: "images/gaming2.png",
+        link: "https://www.youtube.com/channel/..." 
     },
-    {
-        title: "Tofleks",
-        description: "Игровой блогер",
-        logo: "images/toflekss.jpg",  // замените на путь к логотипу
-        link: "https://youtube.com/@tofleks"
+    { 
+        title: "Канал #3", 
+        description: "Киберспортивный канал", 
+        logo: "images/gaming3.png",
+        link: "https://www.youtube.com/channel/..." 
     }
 ];
 
 // Данные для рилсов (5 штук) - вертикальные видео 9:16
+// ВСТАВЬТЕ ВАШИ ССЫЛКИ НА VK ВИДЕО
 const reelsData = [
-    { title: "Venezia Palace Hotel", description: "Динамичный рилс, передающий атмосферу одного из самых роскошных отелей Анталии", video: "https://vkvideo.ru/clip-237762511_456239017" },
-    { title: "Виды медитации", description: "Рилс, погружающий в мир осознанности и гармонии", video: "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/KvOwm8Q8eBTSyw" },
-    { title: "Подборка с WB | Обзор Wildberries", description: "Динамичный рилс с подборкой стильных находок с Wildberries. Монтаж создаёт ощущение лёгкого листания ленты и погружает в атмосферу шопинга", video: "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/0ebl1H55YwqW2w" },
-    { title: "Получение визы", description: "Динамичный монтаж, чёткая подача, визуальные акценты на ключевых этапах. Без воды, без скуки", video: "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/vc98viyjIZcEkw" },
-    { title: "Тур в Турцию", description: "Монтаж передаёт тепло, свободу и желание немедленно собрать чемодан. Для тех, кто мечтает, вдохновляется и планирует следующее приключение", video: "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/6wURoLj3W2c_bw" }
+    { 
+        title: "Venezia Palace", 
+        description: "Атмосферный рилс о роскошном отеле в Анталии. Плавный монтаж, цветокоррекция, динамичная подача.", 
+        videoUrl: "https://vk.com/video_ext.php?oid=-XXXXXXXXX&id=XXXXXXXXX&hash=xxxxxx"
+    },
+    { 
+        title: "Виды медитации", 
+        description: "Спокойный рилс о гармонии и осознанности. Плавный монтаж, природные тона, атмосфера умиротворения.", 
+        videoUrl: "https://vk.com/video_ext.php?oid=-XXXXXXXXX&id=XXXXXXXXX&hash=xxxxxx"
+    },
+    { 
+        title: "Подборка с WB", 
+        description: "Динамичный рилс с обзором товаров с Wildberries. Быстрый монтаж, яркая цветокоррекция, акценты на деталях.", 
+        videoUrl: "https://vk.com/video_ext.php?oid=-XXXXXXXXX&id=XXXXXXXXX&hash=xxxxxx"
+    },
+    { 
+        title: "Получение визы", 
+        description: "Полезный рилс с пошаговой инструкцией. Чёткий монтаж, текстовая поддержка, визуальные акценты на ключевых этапах.", 
+        videoUrl: "https://vk.com/video_ext.php?oid=-XXXXXXXXX&id=XXXXXXXXX&hash=xxxxxx"
+    },
+    { 
+        title: "Тур в Турцию", 
+        description: "Атмосферный рилс о путешествии мечты. Плавный монтаж, тёплая цветокоррекция, кадры моря, солнца и отдыха.", 
+        videoUrl: "https://vk.com/video_ext.php?oid=-XXXXXXXXX&id=XXXXXXXXX&hash=xxxxxx"
+    }
 ];
 
 // Данные для клипов (1 штука) - горизонтальные видео 16:9
 const clipsData = [
-    { title: "Три дня дождя | Fan tribute", description: "Фан-клип, созданный как признание в любви к творчеству группы Три дня дождя. Эмоциональные кадры, атмосфера концертов, лирика, которая цепляет за душу. Монтаж подчёркивает настроение трека — где-то меланхоличный, где-то энергичный, всегда искренний. Посвящение тем, кто живёт музыкой", video: "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/MPbA0VZ69yUaFg" }
+    { 
+        title: "Три дня дождя | Fan tribute", 
+        description: "Фан-клип, созданный как признание в любви к творчеству группы. Эмоциональный монтаж, атмосфера концертов, цветокоррекция под настроение трека.", 
+        videoUrl: "https://vk.com/video_ext.php?oid=-XXXXXXXXX&id=XXXXXXXXX&hash=xxxxxx"
+    }
 ];
 
 // Render portfolio
@@ -117,7 +142,6 @@ function renderPortfolio(category = 'all') {
     let html = '';
 
     if (category === 'all') {
-        // Показываем только рилсы и клипы (игровые не показываются в "Все")
         html += renderReels();
         html += renderClips();
     } else if (category === 'reels') {
@@ -130,7 +154,6 @@ function renderPortfolio(category = 'all') {
 
     grid.innerHTML = html;
 
-    // Add animation delay to cards
     document.querySelectorAll('.portfolio-card, .gaming-card').forEach((card, idx) => {
         card.style.animationDelay = `${idx * 0.1}s`;
     });
@@ -139,14 +162,15 @@ function renderPortfolio(category = 'all') {
 function renderReels() {
     let html = '';
     reelsData.forEach((item, index) => {
-        // Для рилсов (вертикальное видео) используем portrait-класс
         html += `
             <div class="portfolio-card portrait-card" data-category="reels">
                 <div class="portfolio-video portrait-video">
-                    <video controls preload="metadata" playsinline>
-                        <source src="${item.video}" type="video/mp4">
-                        Ваш браузер не поддерживает видео.
-                    </video>
+                    <iframe 
+                        src="${item.videoUrl}"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock"
+                        allowfullscreen>
+                    </iframe>
                 </div>
                 <div class="portfolio-card-content">
                     <h3>${item.title}</h3>
@@ -161,14 +185,15 @@ function renderReels() {
 function renderClips() {
     let html = '';
     clipsData.forEach((item, index) => {
-        // Для клипов (горизонтальное видео) используем landscape-класс
         html += `
             <div class="portfolio-card landscape-card" data-category="clips">
                 <div class="portfolio-video landscape-video">
-                    <video controls preload="metadata" playsinline>
-                        <source src="${item.video}" type="video/mp4">
-                        Ваш браузер не поддерживает видео.
-                    </video>
+                    <iframe 
+                        src="${item.videoUrl}"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock"
+                        allowfullscreen>
+                    </iframe>
                 </div>
                 <div class="portfolio-card-content">
                     <h3>${item.title}</h3>
@@ -245,7 +270,6 @@ function renderTestimonialsSwiper() {
     });
     swiperContainer.innerHTML = html;
 
-    // Initialize Swiper
     new Swiper('.testimonials-swiper', {
         slidesPerView: 1,
         spaceBetween: 30,
@@ -273,7 +297,6 @@ function renderTestimonialsSwiper() {
 renderPortfolio('all');
 renderTestimonialsSwiper();
 
-// Initial fade-up check
 setTimeout(() => {
     document.querySelectorAll('.fade-up').forEach(el => {
         if (el.getBoundingClientRect().top < window.innerHeight - 100) {
